@@ -1,0 +1,8 @@
+.marca {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.7); /* Semi-transparent gray */
+    pointer-events: none; /* Ensure it doesn't interfere with other elements */
+}

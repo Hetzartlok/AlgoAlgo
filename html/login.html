@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/marca.css">
+
+    <script src="../js/login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="2"><strong>Inicio de Sesión</strong></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="user-container">
+                        <input placeholder="Usuario" class="input-field" type="text" id="User">
+                        <label for="input-field" class="input-label">Usuario</label>
+                        <span class="input-highlight"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="pass-container">
+                        <input placeholder="Contraseña" class="input-field" type="password" id="Pass">
+                        <label for="input-field" class="input-label">Contraseña</label>
+                        <span class="input-highlight"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Iniciar Sesión" onclick="enviar()"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="marca">Hetzas</div>
+</body>
+</html>
